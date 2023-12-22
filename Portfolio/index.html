@@ -25,25 +25,27 @@
             </button>
             <div class="collapse navv navbar-collapse me-3" id="navbarNav">
                 <ul class="navbar-nav ">
-                    <li class="nav-item">
+                    <li id="navItem1" class="nav-item">
                         <a class="nav-link" href="#">Skills</a>
                     </li>
-                    <li class="nav-item">
+                    <li id="navItem2" class="nav-item">
                         <a class="nav-link" href="#">Education</a>
                     </li>
-                    <li class="nav-item">
+                    <li id="navItem3" class="nav-item">
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="assets/resume/Abdul Moiz - CV.pdf">Download CV</a>
                     </li>
-                    <li class="nav-item">
+                    <li id="navItem4" class="nav-item">
                         <a class="nav-link" href="#">Contact me</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+<!-- /////1stpage///// -->
 
     <div class=" container mainpage">
         <div class="row  d-flex align-items-center">
@@ -83,7 +85,7 @@
     </div>
     <!-- //////////2ndpage///////// -->
 
-    <div class=" container main2nd">
+    <div id="section1" class=" container main2nd">
         <div class="row  d-flex align-items-center">
             <div class="col-12 col-sm-6 col-md-5 col-lg-6 col-xl-6 animation animate__animated animate__backInRight">
                 <img width="500px" src="assets/images/learn image.gif" alt="">
@@ -91,59 +93,59 @@
             <div class="  col-12 col-sm-6 col-md-5 col-lg-6 col-xl-6 animate__animated animate__backInLeft ">
                 <h2 style="color: black;">What is my learning... </h2>
                 <br>
-                <p>Crazy full stack developer who wants to explore every tech stack</p>
+                <p>Mern stack developer in learning stage who wants to explore every tech stack</p>
                 <br>
                 <div class="dflex">
 
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/html-5.png" alt="">
                         <p>html-5</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/css-3.png" alt="">
                         <p>css-3</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/bootstrap.png" alt="">
                         <p>bootstrap</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/js.png" alt="">
                         <p>javascript</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/nodejs.png" alt="">
                         <p>node.js</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/npm.png" alt="">
                         <p>npm</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/next-js.png" alt="">
                         <p>next-js</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/pwa-icon.webp" alt="">
                         <p>pwa</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/react.png" alt="">
                         <p>react</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/typescript.png" alt="">
                         <p>typescript</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/firebase.png" alt="">
                         <p>firebase</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/github.png" alt="">
                         <p>github</p>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <img width="50px" src="assets/images/mongodb.png" alt="">
                         <p>mongodb</p>
                     </div>
@@ -163,7 +165,7 @@
     </div>
 
     <!-- //////////3rdpage///////// -->
-    <div class="container main3rd mt-5">
+    <div id="section2" class="container main3rd mt-5">
         <div class="row">
             <h2>Education</h2>
             <div class="">
@@ -188,7 +190,7 @@
 
     <!-- CSS Assignment -->
 
-    <div class="container mt-5">
+    <div id="section3" class="container mt-5">
         <div class="row">
             <h2 style="color: black;">CSS Assignments</h2>
 
@@ -272,7 +274,7 @@
     </div>
     <!-- //////////contact me/////////// -->
 
-    <div class="container mt-5 mb-5">
+    <div id="section4" class="container mt-5 mb-5">
         <div class=" contact">
             <div class="profile">
                 <img width="200px" src="assets/images/profile.jpg" alt="">
@@ -304,7 +306,11 @@
         </div>
     </div>
 
+    <!-- topscrollbutton -->
 
+    <button id="scrollToTopBtn"><img width="40px" src="assets/images/up-arrow.png" alt=""></button>
+
+<script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
